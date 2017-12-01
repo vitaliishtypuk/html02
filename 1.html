@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Німецький автопром</title>
+</head>
+<body bgcolor="#eae8e8">
+    
+    <header>
+        <div><h1>Audi</h1></div>
+    </header>
+    
+    <main>
+        <form method="POST" action="https://formspree.io/vandal3333@gmail.com">
+        <p>Коротка історія концерну <b>"Audi"</b></p>
+        <p><img src="audi1.jpg" width="640"  alt="Audi"/></p>
+        <p>Німецькі машини «Audi» почали випускатися з 1909 року. Це високоякісні автомобілі, які продаються по всьому світу до сих пір. Символ компанії пов'язаний з подіями 1932 року. У той час компанія «Audi» злилася з трьома фірмами, створюючи одне велике підприємство. Таким чином, автовиробник на той момент включав в себе чотири компанії. Саме їх і символізують чотири пов'язаних між собою кільця на емблемі бренду. У 1966 році компанія «Audi» стала частиною холдингу «Volkswagen». </p>
+        
+        <fieldset>
+            <legend>Автомобільні дані</legend>
+            <ol>
+                <li>Якому типу автомобіля ви віддаєте перевагу?
+                    <br>
+                    <label>
+                        <input type="radio" name="body" value="closed"/> закритий
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="body" value="open"/> відкритий
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="body" value="freight"/> вантажний
+                    </label>
+                </li>
+                
+                <li>Який клас автомобіля ви обираєте?
+                    <br>
+                    <label>
+                        <input type="radio" name="class" value="budgetary"/> б'юджетний
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="class" value="average"/> середній
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="class" value="premium"/> преміум
+                    </label>
+                </li>
+                
+                <li>Яку коробку передач ви використовуєте?
+                    <br>
+                    <label>
+                        <input type="checkbox" name="transmission" value="mechanical"/> механічна
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="transmission" value="automatic"/> автоматична
+                    </label>
+                </li>
+                
+                <li>
+                    
+                    <label>Опишіть свій досвід володіння автомобілем:
+                    <br>
+                        <textarea name="story" rows="5" cols="60" placeholder="Введіть опис..."></textarea>
+                    </label>
+                </li>
+                
+                <li>
+                    <label>Який колір авта вам подобається?
+                        <input type="color" name="cat-color"/>
+                    </label>
+                </li>
+                
+                <li>
+                    <label>Скільки авто було у вашому користуванні?
+                        <input type="number" name="number-superstition" min="0" value="0"/>
+                    </label>
+                </li>
+                
+                <li>
+                    <label>Для чого ви купляєте автомобіль:
+                        <select name="car">
+                            <option value="for life"> для побуту</option>
+                            <option value="for work"> для роботи</option>
+                            <option value="for entertainment"> для розваг</option>
+                        </select>
+                    </label>
+                </li>
+            </ol>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Особисті дані</legend>
+            <ol>
+                <li>Стать
+                    <br>
+                    <label>
+                        <input type="radio" name="gender" value="famale"/> чоловіча
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="gender" value="male"/> жіноча
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="gender" value="other" checked/> інша
+                    </label>
+                </li>
+                
+                <li>Дата народження:
+                    <br>
+                    <label>
+                       <input type="date" name="birth" value="2017-11-30" required/>
+                    </label>
+                </li>
+                
+                <li>Ви одружені?
+                    <br>
+                    <label>
+                        <input type="checkbox" name="marriage" value="married"/> одружений
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="marriage" value="unmarried"/> неодружений
+                    </label>
+            </ol>
+            
+        </fieldset>
+        <br>
+        <input type="submit" value="Відправити"/>
+        <input type="reset" value="Скасувати"/>
+        </form>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <p><i>Дане соціологічне опитування спрамоване на отримання важливої інформації для виробників. Просимо, поставитись відповідально. Надана інформація є виключно конфіденційною.</i></p>
+    </footer>
+    
+</body>
+</html>
